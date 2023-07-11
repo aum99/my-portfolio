@@ -23,6 +23,11 @@ export const SectionHeader = styled.h1`
   margin: 5px;
   color: #fff;
   margin: 25px 100px;
+  @media (max-width: 715px) {
+    font-size: x-large;
+    margin: 10px 50px;
+    margin-top: 20px;
+  }
 `;
 
 export const ProjectsContainer = styled.ul`
@@ -56,6 +61,9 @@ export const NavLink = styled(Link)`
     font-size: 5.2vw;
     -webkit-text-stroke: 2px #fff;
     color: #000;
+    @media (max-width: 730px) {
+      -webkit-text-stroke: 0.5px #fff;
+    }
   }
 `;
 

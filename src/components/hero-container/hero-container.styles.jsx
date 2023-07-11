@@ -37,7 +37,12 @@ export const Content = styled.div`
 
 export const NavLink = styled(Link)`
   text-decoration: none;
-  border-bottom: 1px solid;
+  border-bottom: 1px solid #d62828;
+  color: #d62828;
+  &:hover {
+    color: hsl(0, 0%, 74%, 1);
+    border-color: hsl(0, 0%, 74%, 1);
+  }
 `;
 
 export const Name = styled.h1`
