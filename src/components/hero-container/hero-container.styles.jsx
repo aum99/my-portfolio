@@ -7,6 +7,11 @@ export const Header = styled.div`
   padding: 12.5rem 0 8rem 0;
   gap: 2.5rem;
   box-sizing: border-box;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: cover;
+  background-image: url("https://images.unsplash.com/photo-1557682224-5b8590cd9ec5?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=800&fit=max&ixid=eyJhcHBfaWQiOjF9");
   @media (max-width: 920px) {
     gap: 1.5rem;
   }

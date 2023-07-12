@@ -12,16 +12,6 @@ import {
   Project,
 } from "./projects.styles";
 
-import buzz1 from "../../iamges/buzz-1.png";
-import buzz2 from "../../iamges/buzz-2.png";
-import buzz3 from "../../iamges/buzz-3.png";
-import buzz4 from "../../iamges/buzz-4.png";
-
-import todo1 from "../../iamges/todo-1.png";
-import todo2 from "../../iamges/todo-2.png";
-import todo3 from "../../iamges/todo-3.png";
-import todo4 from "../../iamges/todo-4.png";
-
 const Projects = () => {
   return (
     <MainContainer>
@@ -45,8 +35,8 @@ const Projects = () => {
               known contributors.
             </Description>
             <ImageContainer data-aos="fade-up">
-              <Image src={buzz1} />
-              <Image src={buzz2} />
+              <Image src="https://res.cloudinary.com/damon753y/image/upload/v1689164448/buzz-1_q2wtis.png" />
+              <Image src="https://res.cloudinary.com/damon753y/image/upload/v1689164431/buzz-2_msil7a.png" />
             </ImageContainer>
             <Description>
               From study tips and career advice to campus events and personal
@@ -54,8 +44,8 @@ const Projects = () => {
               navigate through your journey.
             </Description>
             <ImageContainer data-aos="fade-up">
-              <Image src={buzz3} />
-              <Image src={buzz4} />
+              <Image src="https://res.cloudinary.com/damon753y/image/upload/v1689164452/buzz-3_e0likc.png" />
+              <Image src="https://res.cloudinary.com/damon753y/image/upload/v1689164432/buzz-4_xudnmc.png" />
             </ImageContainer>
           </ProjectInfo>
         </Project>
@@ -74,8 +64,8 @@ const Projects = () => {
               and deletion
             </Description>
             <ImageContainer data-aos="fade-up">
-              <Image src={todo1} />
-              <Image src={todo2} />
+              <Image src="https://res.cloudinary.com/damon753y/image/upload/v1689164461/todo-1_qnl57q.png" />
+              <Image src="https://res.cloudinary.com/damon753y/image/upload/v1689164458/todo-3_xpuzym.png" />
             </ImageContainer>
             <Description>
               Integrated authentication and authorization functionalities,
@@ -83,8 +73,8 @@ const Projects = () => {
               personalized to-do-lists
             </Description>
             <ImageContainer data-aos="fade-up">
-              <Image src={todo3} />
-              <Image src={todo4} />
+              <Image src="https://res.cloudinary.com/damon753y/image/upload/v1689164457/todo-4_rsoxzh.png" />
+              <Image src="https://res.cloudinary.com/damon753y/image/upload/v1689164457/todo-2_kedjv9.png" />
             </ImageContainer>
           </ProjectInfo>
         </Project>

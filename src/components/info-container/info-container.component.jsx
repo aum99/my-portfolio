@@ -1,5 +1,10 @@
 import React, { Fragment } from "react";
-import { Cursor, TextContainer, TimeContainer } from "./info-container.styles";
+import {
+  Cursor,
+  HighlightSpan,
+  TextContainer,
+  TimeContainer,
+} from "./info-container.styles";
 
 const Info = () => {
   return (
@@ -15,11 +20,12 @@ const Info = () => {
         quick learner and have strong communication skills, which i believe will
         allow me to excel in any role.
         <br />
-        <br />
-        I am always inspired by the tech industry, computers and software. In my
-        spare time I explore adjacent areas to design such as 3D, development,
-        mobile development and competitive coding. Also I play cricket and
-        follow Indian Cricket Team
+        <br />I am always inspired by the tech industry, computers and software.
+        In my spare time I explore adjacent areas to design such as 3D,
+        development, mobile development and competitive coding. I was{" "}
+        <HighlightSpan>Design Lead</HighlightSpan> for the Google Developer
+        Student Club of my college. Also I play cricket and follow Indian
+        Cricket Team
         <br />
         <br />
         Spending quality time with loved ones, engaging in meaningful

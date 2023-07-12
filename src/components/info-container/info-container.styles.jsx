@@ -77,3 +77,10 @@ export const Cursor = styled.span`
     }
   }
 `;
+
+export const HighlightSpan = styled.span`
+  background: linear-gradient(90deg, #ee2a0f 30%, #b4b4b4 80%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+`;
