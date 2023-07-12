@@ -44,7 +44,7 @@ const Projects = () => {
               insights and personal experiences from students, professors, and
               known contributors.
             </Description>
-            <ImageContainer>
+            <ImageContainer data-aos="fade-up">
               <Image src={buzz1} />
               <Image src={buzz2} />
             </ImageContainer>
@@ -53,7 +53,7 @@ const Projects = () => {
               growth, the website covers a wide range of topics to help you
               navigate through your journey.
             </Description>
-            <ImageContainer>
+            <ImageContainer data-aos="fade-up">
               <Image src={buzz3} />
               <Image src={buzz4} />
             </ImageContainer>
@@ -73,7 +73,7 @@ const Projects = () => {
               The website has capabilities to handle task creation, modification
               and deletion
             </Description>
-            <ImageContainer>
+            <ImageContainer data-aos="fade-up">
               <Image src={todo1} />
               <Image src={todo2} />
             </ImageContainer>
@@ -82,7 +82,7 @@ const Projects = () => {
               allowing user to securely register, login and maintain
               personalized to-do-lists
             </Description>
-            <ImageContainer>
+            <ImageContainer data-aos="fade-up">
               <Image src={todo3} />
               <Image src={todo4} />
             </ImageContainer>

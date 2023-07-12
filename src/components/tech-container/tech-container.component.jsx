@@ -8,7 +8,7 @@ import {
 
 const TechContainer = () => {
   return (
-    <TechStackContainer>
+    <TechStackContainer data-aos="fade-up">
       <TextContainer>My Tech Stack</TextContainer>
       <LogosContainer>
         <Logo

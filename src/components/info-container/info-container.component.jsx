@@ -4,7 +4,7 @@ import { Cursor, TextContainer, TimeContainer } from "./info-container.styles";
 const Info = () => {
   return (
     <Fragment>
-      <TextContainer>
+      <TextContainer data-aos="fade-in">
         <TimeContainer>
           July 12, 2023 at 1:16 PM <Cursor>|</Cursor>{" "}
         </TimeContainer>

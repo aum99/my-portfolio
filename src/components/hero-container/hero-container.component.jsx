@@ -12,7 +12,7 @@ const word = "fullstack developer";
 const HeroContainer = () => {
   return (
     <Content>
-      <Header>
+      <Header data-aos="fade-in" data-aos-duration="3000">
         <SubTitle>
           about me & other things I do → <NavLink to="/about">see info</NavLink>
         </SubTitle>
