@@ -4,6 +4,8 @@ import {
   SubTitle,
   NavLink,
   Name,
+  Mouse,
+  ScrollContainer,
 } from "./hero-container.styles";
 
 import WordAnimation from "../word-animation/word-animation.component";
@@ -24,6 +26,9 @@ const HeroContainer = () => {
             return <WordAnimation char={char} key={i} id={i} />;
           })}
         </Name>
+        <ScrollContainer>
+          <Mouse /> <span>Scroll Down</span>
+        </ScrollContainer>
       </Header>
     </Content>
   );

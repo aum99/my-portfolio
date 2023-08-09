@@ -20,6 +20,34 @@ const Projects = () => {
         <Project>
           <LinkHolder>
             <NavLink to="https://the-daily-buzzz.onrender.com/">
+              Aum
+              <br />
+              Enterprises
+            </NavLink>
+          </LinkHolder>
+          <ProjectInfo>
+            <Header>Ecommerece website built using React Js</Header>
+            <Description>
+              Discover a plethora of mechanical spare part products with high
+              quality for all your hardware needs
+            </Description>
+            <ImageContainer data-aos="fade-up">
+              <Image src="https://res.cloudinary.com/damon753y/image/upload/v1691558853/Screenshot_2023-08-09_at_10.53.28_AM_tpbfwu.png" />
+              <Image src="https://res.cloudinary.com/damon753y/image/upload/v1691558847/Screenshot_2023-08-09_at_10.54.47_AM_mwkl43.png" />
+            </ImageContainer>
+            <Description>
+              Specific products fabricated as per you requirements and
+              convenience.
+            </Description>
+            <ImageContainer data-aos="fade-up">
+              <Image src="https://res.cloudinary.com/damon753y/image/upload/v1691558841/Screenshot_2023-08-09_at_10.54.06_AM_oy1uqy.png" />
+              <Image src="https://res.cloudinary.com/damon753y/image/upload/v1691558839/Screenshot_2023-08-09_at_10.54.22_AM_njs8lg.png" />
+            </ImageContainer>
+          </ProjectInfo>
+        </Project>
+        <Project>
+          <LinkHolder>
+            <NavLink to="https://the-daily-buzzz.onrender.com/">
               The
               <br />
               Daily Buzz

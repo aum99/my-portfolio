@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { styled } from "styled-components";
+import { ReactComponent as MouseSvg } from "../../mouse.svg";
 
 export const Header = styled.div`
   display: flex;
@@ -65,5 +66,26 @@ export const Name = styled.h1`
   }
   @media (max-width: 630px) {
     font-size: 2rem;
+  }
+`;
+
+export const ScrollContainer = styled.div`
+  display: flex;
+  align-items: center;
+  width: 100%;
+`;
+
+export const Mouse = styled(MouseSvg)`
+  margin-right: 10px;
+  [id="wheel"] {
+    animation: scroll ease 1.5s infinite;
+  }
+  @keyframes scroll {
+    0% {
+      transform: translateY(0);
+    }
+    30% {
+      transform: translateY(100px);
+    }
   }
 `;
