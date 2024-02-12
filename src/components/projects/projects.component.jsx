@@ -15,33 +15,61 @@ import {
 const Projects = () => {
   return (
     <MainContainer>
-      <SectionHeader>Recent Projects / 2023</SectionHeader>
+      <SectionHeader>Recent Projects </SectionHeader>
       <ProjectsContainer>
         <Project>
           <LinkHolder>
             <NavLink to="https://the-daily-buzzz.onrender.com/">
-              Aum
+              Deepfake Audio
               <br />
-              Enterprises
+              Detection
             </NavLink>
           </LinkHolder>
           <ProjectInfo>
-            <Header>Ecommerece website built using React Js</Header>
+            <Header>System to safeguard against manipulated audio</Header>
             <Description>
-              Discover a plethora of mechanical spare part products with high
-              quality for all your hardware needs
+              Implemented a robust backend for real-time audio processing,
+              utilizing cutting-edge deep learning models.
             </Description>
             <ImageContainer data-aos="fade-up">
-              <Image src="https://res.cloudinary.com/damon753y/image/upload/v1691558853/Screenshot_2023-08-09_at_10.53.28_AM_tpbfwu.png" />
-              <Image src="https://res.cloudinary.com/damon753y/image/upload/v1691558847/Screenshot_2023-08-09_at_10.54.47_AM_mwkl43.png" />
+              <Image src="https://res.cloudinary.com/damon753y/image/upload/v1707732190/Screenshot_2024-02-12_at_3.32.29_PM_bkbmmn.png" />
+              <Image src="https://res.cloudinary.com/damon753y/image/upload/v1707732190/Screenshot_2024-02-12_at_3.32.12_PM_auvsr8.png" />
             </ImageContainer>
             <Description>
-              Specific products fabricated as per you requirements and
-              convenience.
+              Trained on diverse datasets to excel in recognizing subtle
+              patterns indicative of deepfake audio, offering a reliable defense
+              against malicious manipulation.
             </Description>
             <ImageContainer data-aos="fade-up">
-              <Image src="https://res.cloudinary.com/damon753y/image/upload/v1691558841/Screenshot_2023-08-09_at_10.54.06_AM_oy1uqy.png" />
-              <Image src="https://res.cloudinary.com/damon753y/image/upload/v1691558839/Screenshot_2023-08-09_at_10.54.22_AM_njs8lg.png" />
+              <Image src="https://res.cloudinary.com/damon753y/image/upload/v1707732191/Screenshot_2024-02-12_at_3.32.40_PM_ttrhop.png" />
+              <Image src="https://res.cloudinary.com/damon753y/image/upload/v1707732191/Screenshot_2024-02-12_at_3.32.47_PM_qsodln.png" />
+            </ImageContainer>
+          </ProjectInfo>
+        </Project>
+        <Project>
+          <LinkHolder>
+            <NavLink to="https://the-daily-buzzz.onrender.com/">
+              Doodle <br /> Hub
+            </NavLink>
+          </LinkHolder>
+          <ProjectInfo>
+            <Header>Multiplayer drawing app using websockets</Header>
+            <Description>
+              A multiplayer drawing app facilitating real-time collaborative
+              sketching. With a seamless interface and instant communication,
+              users can create and share drawings with friends
+            </Description>
+            <ImageContainer data-aos="fade-up">
+              <Image src="https://res.cloudinary.com/damon753y/image/upload/v1707731713/Screenshot_2024-02-12_at_3.20.29_PM_oqyuot.png" />
+              <Image src="https://res.cloudinary.com/damon753y/image/upload/v1707731713/Screenshot_2024-02-12_at_3.24.50_PM_o48pn4.png" />
+            </ImageContainer>
+            <Description>
+              Whether for brainstorming or casual fun, DoodleHub offers an
+              interactive platform for collaborative artistry.
+            </Description>
+            <ImageContainer data-aos="fade-up">
+              <Image src="https://res.cloudinary.com/damon753y/image/upload/v1707731954/Screenshot_2024-02-12_at_3.27.37_PM_jfk2ju.png" />
+              <Image src="https://res.cloudinary.com/damon753y/image/upload/v1707731954/Screenshot_2024-02-12_at_3.28.46_PM_q8yfti.png" />
             </ImageContainer>
           </ProjectInfo>
         </Project>
@@ -77,6 +105,35 @@ const Projects = () => {
             </ImageContainer>
           </ProjectInfo>
         </Project>
+        <Project>
+          <LinkHolder>
+            <NavLink to="https://the-daily-buzzz.onrender.com/">
+              Aum
+              <br />
+              Enterprises
+            </NavLink>
+          </LinkHolder>
+          <ProjectInfo>
+            <Header>Ecommerece website built using React Js</Header>
+            <Description>
+              Discover a plethora of mechanical spare part products with high
+              quality for all your hardware needs
+            </Description>
+            <ImageContainer data-aos="fade-up">
+              <Image src="https://res.cloudinary.com/damon753y/image/upload/v1691558853/Screenshot_2023-08-09_at_10.53.28_AM_tpbfwu.png" />
+              <Image src="https://res.cloudinary.com/damon753y/image/upload/v1691558847/Screenshot_2023-08-09_at_10.54.47_AM_mwkl43.png" />
+            </ImageContainer>
+            <Description>
+              Specific products fabricated as per you requirements and
+              convenience.
+            </Description>
+            <ImageContainer data-aos="fade-up">
+              <Image src="https://res.cloudinary.com/damon753y/image/upload/v1691558841/Screenshot_2023-08-09_at_10.54.06_AM_oy1uqy.png" />
+              <Image src="https://res.cloudinary.com/damon753y/image/upload/v1691558839/Screenshot_2023-08-09_at_10.54.22_AM_njs8lg.png" />
+            </ImageContainer>
+          </ProjectInfo>
+        </Project>
+
         <Project>
           <LinkHolder>
             <NavLink to="https://get-it-done-n0j5.onrender.com/">

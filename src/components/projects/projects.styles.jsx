@@ -49,7 +49,7 @@ export const NavLink = styled(Link)`
   font-weight: 900;
   font-style: normal;
   font-stretch: normal;
-  font-size: 5vw;
+  font-size: 3.5vw;
   letter-spacing: 0.02em;
   line-height: 0.9em;
   font-family: druk-wide;
@@ -58,7 +58,7 @@ export const NavLink = styled(Link)`
   transition: 1s;
   cursor: pointer;
   &:hover {
-    font-size: 5.2vw;
+    font-size: 4vw;
     -webkit-text-stroke: 2px #fff;
     color: #000;
     @media (max-width: 730px) {
@@ -79,7 +79,7 @@ export const LinkHolder = styled.div`
   padding-top: 40px;
   &:hover {
     ${NavLink} {
-      font-size: 5.2vw;
+      font-size: 4vw;
       margin-right: 40px;
       -webkit-text-stroke: 2px #fff;
       color: #000;

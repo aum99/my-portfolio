@@ -10,11 +10,41 @@ import {
 const BarContainer = () => {
   return (
     <ProjectBarsContainer>
+      <ProjectBar
+        to="https://rebalance-clothing.vercel.app/"
+        data-aos="fade-in"
+      >
+        <InfoContainer>
+          <ProjectName>Rebalance Clothing</ProjectName>{" "}
+          <ProjectDescription>
+            Clothing Apparel website using React Js
+          </ProjectDescription>
+        </InfoContainer>
+        <Icon className="bx bx-right-arrow-alt"></Icon>
+      </ProjectBar>
+      <ProjectBar to="https://musify-self.vercel.app/" data-aos="fade-in">
+        <InfoContainer>
+          <ProjectName>Musify</ProjectName>{" "}
+          <ProjectDescription>
+            Spotify Clone made using Next JS
+          </ProjectDescription>
+        </InfoContainer>
+        <Icon className="bx bx-right-arrow-alt"></Icon>
+      </ProjectBar>
+      <ProjectBar to="https://breadit-aum99.vercel.app/" data-aos="fade-in">
+        <InfoContainer>
+          <ProjectName>Breadit</ProjectName>{" "}
+          <ProjectDescription>
+            Community Website built using Next JS
+          </ProjectDescription>
+        </InfoContainer>
+        <Icon className="bx bx-right-arrow-alt"></Icon>
+      </ProjectBar>
       <ProjectBar to="https://aum-enterprises.netlify.app/" data-aos="fade-in">
         <InfoContainer>
           <ProjectName>Aum Enterprises</ProjectName>{" "}
           <ProjectDescription>
-            Ecommerce wesite using React Js
+            Ecommerce website using React Js
           </ProjectDescription>
         </InfoContainer>
         <Icon className="bx bx-right-arrow-alt"></Icon>
